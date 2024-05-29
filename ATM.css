@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #047ebf;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#cajero {
+    background-color: #db8a10;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #1498de;
+    color: #b3c606;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1186c5;
+}
+
+.hidden {
+    display: none;
+}
+
+#error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+label, select, input {
+    font-size: 16px;
+    margin: 10px 0;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="password"], input[type="number"] {
+    padding: 10px;
+    border: 1px solid #06e5bc;
+    border-radius: 5px;
+}
+
+#balance, #depositMessage, #withdrawMessage {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #5c0303;
+}
